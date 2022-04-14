@@ -48,6 +48,7 @@ Gesture             |  Deskripsi
 - mungkin ada beberapa lompatan di sana-sini
 - jangan lupa untuk menambahkan ApplePS2SmartTouchPad.kext di config.plist
 - Kext ini mengemulasi beberapa gerakan dengan mengirimkan sistem dengan pintasan keyboard yang sesuai. Misalnya, setelah kext mendeteksi gesekan tiga jari ke kiri, ia akan memasukkan kontrol + kiri untuk beralih ruang kerja. Ini berfungsi dengan baik tetapi sedikit kikuk (Anda tidak dapat memindahkan ruang kerja setengah jalan untuk melihat apa yang ada di yang lain misalnya)
+- [Unduh Di sini](https://github.com/JaemanPratama/Elan-ETD0108-PS-2-Interface-Trackpad/releases)
 
 
 ### [Sumber Kext](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/)
