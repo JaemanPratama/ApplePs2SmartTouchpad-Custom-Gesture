@@ -1,4 +1,4 @@
-## Berikut adalah fitur yang Anda Dapatkan Di Mac OSX :
+## Berikut adalah fitur yang Bisa Anda Dapatkan Di Mac OSX :
 
 
 
