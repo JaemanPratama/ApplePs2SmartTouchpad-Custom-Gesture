@@ -73,3 +73,14 @@ Gesture             |  Deskripsi
 ![](https://user-images.githubusercontent.com/89202419/161057779-12b20f1a-6a6b-401d-8265-d0677a448832.png) |  Rotasi. letakkan jari pertama di touchpad selama 1-2 detik sebelum memutar dengan jari lain
 ![](https://user-images.githubusercontent.com/89202419/161063663-8925e6cd-1907-4ffc-99d3-d5ea65468867.png) | Klik Tengah. Emulasi Klik Tengah Seperti Pada Mouse
 
+### 📓 Catatan Penting :
+
+- Itu ada di Beta. Jangan berharap Drivernya berfungsi dengan baik
+- mungkin ada beberapa lompatan di sana-sini
+- jangan lupa untuk menambahkan ApplePS2SmartTouchPad.kext di config.plist
+- Kext ini mengemulasi beberapa gerakan dengan mengirimkan sistem dengan pintasan keyboard yang sesuai. Misalnya, setelah kext mendeteksi gesekan tiga jari ke kiri, ia akan memasukkan kontrol + kiri untuk beralih ruang kerja. Ini berfungsi dengan baik tetapi sedikit kikuk (Anda tidak dapat memindahkan ruang kerja setengah jalan untuk melihat apa yang ada di yang lain misalnya)
+
+#### Thanks To :
+- EMlyDinEsH
+
+### [Sumber Pembuat Kext](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/)
