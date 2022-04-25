@@ -2,8 +2,7 @@
 Hari ini, saya akan membagikan tips singkat tentang cara memperbaiki gerakan Trackpad di perangkat MacOS Big Sur 11.6.1+ Hackintosh
 
 ### PERBAIKI PANDUAN GERAKAN TRACKPAD Big Sur MENCAKUP TOPIK DI BAWAH INI:
-* Bagaimana cara mengunduh Driver Trackpad macOS Big Sur (kexts)?![image](https://user-images.githubusercontent.com/89202419/165054639-ed25174c-455e-4780-8aab-cb22317c2918.png)
-
+* Bagaimana cara mengunduh Driver Trackpad macOS Big Sur (kexts)
 * Instal kexts driver macOS ?
 * Aktifkan gerakan trackpad di macOS Big Sur
 * Aktifkan MacBook like Gestures di macOS Big Sur Hackintosh
