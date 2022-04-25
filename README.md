@@ -40,7 +40,7 @@ Setelah reboot, Buka Pengaturan
 <img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%205.png" width="550" height="450" />
 <img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%206.png" width="550" height="450" />
 
-Catatan : Bagi mereka yang ingin Scroll Touchpad Terbalik (Seperti Windows) Hapus Centang Arah Gulir
+Catatan : Bagi mereka yang ingin Scroll Touchpad Terbalik (Seperti Windows) Hapus Centang Arah Gulir Alami
 <img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%207.png" width="550" height="450" />
 
 ### Prefensi System -> Papan Ketik -> Edit Sesuai Dengan Tombol Shorchut-Shorchut dibawah Ini :
