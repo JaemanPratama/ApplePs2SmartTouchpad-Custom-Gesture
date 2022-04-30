@@ -11,7 +11,10 @@ Hari ini, saya akan membagikan tips singkat tentang cara memperbaiki gerakan Tra
 
 Di laptop saya, saya melihat kontrol trackpad tetapi hanya menggesek ke atas dan ke bawah dengan gerakan dua jari yang berfungsi. Gerakan lain ditampilkan di pengaturan Trackpad tetapi tidak berfungsi sama sekali. Jika demikian halnya dengan Anda, ikuti panduan ini dan ini pasti akan memperbaiki masalah.
 
-![](https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%200.png)
+<p align="center">
+<img width="460" height="300" src="https://user-images.githubusercontent.com/89202419/166097403-4bd2146f-d5b1-483f-bcf2-d3a39e5c24c8.gif">
+  </p>
+
 
 Bagian terbaiknya, setiap gerakan bekerja seperti yang dijelaskan.
 
