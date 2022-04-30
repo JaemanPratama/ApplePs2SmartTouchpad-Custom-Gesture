@@ -1,55 +1,63 @@
-### Perbaiki Cepat MacOS Big Sur Trackpad Gestures Hackintosh Guide
-Hari ini, saya akan membagikan tips singkat tentang cara memperbaiki gerakan Trackpad di perangkat MacOS Big Sur 11.6.1+ Hackintosh
+### Aktifkan trackpad di hackintosh Menggunakan Appleps2smarttouchpad.kext
 
-### PERBAIKI PANDUAN GERAKAN TRACKPAD Big Sur MENCAKUP TOPIK DI BAWAH INI:
-* Bagaimana cara mengunduh Driver Trackpad macOS Big Sur (kexts)
-* Instal kexts driver macOS ?
-* Aktifkan gerakan trackpad di macOS Big Sur
-* Aktifkan MacBook like Gestures di macOS Big Sur Hackintosh
+> ⚠️ Kext ini mengemulasi beberapa gerakan dengan mengirimkan sistem dengan pintasan keyboard yang sesuai. Misalnya, setelah kext mendeteksi gesekan tiga jari ke kiri, ia akan memasukkan kontrol + kiri untuk beralih ruang kerja. Ini berfungsi dengan baik tetapi sedikit kikuk (Anda tidak dapat memindahkan ruang kerja setengah jalan untuk melihat apa yang ada di yang lain misalnya)
 
-### AKTIFKAN GERAKAN TRACKPAD DI MACOS Big Sur 11.6.1+
+> ⚠️ ***Repo ini hanya membantu menyalakan gerakan beberapa gesture saja***. Bagian terbaiknya, **KEMUNGKINAN** setiap gerakan bekerja seperti yang dijelaskan
 
+### Fitur yang Didukung
+- Mode mouse dengan Tombol Virtual Kiri, Kanan dan Tengah
+- Mengetuk -  Hingga 5 jari
+- Mengklik - Hingga 5 jari
+- Menyeret: Ketuk untuk melepaskan dan Angkat Jari 
+- Ketuk Sudut
+- Menggulir - Tepi satu jari dan gesek Dua Jari
+- Efek gulir terus menerus, Linear, Sling dan Inersia
+- Finger Press - Hingga 5 jari
+- Menggesek - Ujung, Tiga dan Empat Jari
+- Zoom - Zoom cubit dengan dua jari, Zoom OSX dengan Keyboard
+- 4 (Elan, Focaltech) & 5 jari Gerakan mencubit
+- Rotasi - Rotasi Busur dan Gesek
+- Input/Telapak Tangan yang Tidak Disengaja saat mengetik
+
+```
+Source :
+Elan & Smart Touchpad Ps2 https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver-mac-os-x/
+VoodooPS2 by Acidanthera https://github.com/acidanthera/VoodooPS2/releases
+```
+
+```
 Di laptop saya, saya melihat kontrol trackpad tetapi hanya menggesek ke atas dan ke bawah dengan gerakan dua jari yang berfungsi. Gerakan lain ditampilkan di pengaturan Trackpad tetapi tidak berfungsi sama sekali. Jika demikian halnya dengan Anda, ikuti panduan ini dan ini pasti akan memperbaiki masalah.
+```
 
-<p align="center">
-<img width="460" height="300" src="https://user-images.githubusercontent.com/89202419/166097403-4bd2146f-d5b1-483f-bcf2-d3a39e5c24c8.gif">
-  </p>
+#### 🧭 Langkah-langkahnya sederhana. Yang harus Anda lakukan adalah mengunduh paket [ApplePS2SmartTouchPad.kext.zip](https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/releases) . Setelah mengunduh paket, ikuti langkah-langkah ini:
+
+1. Hapus  kext "ApplePS2Controller, VoodooPS2Controller, AppleACPIPS2Nub, ApplePS2Keyboard, dan Elan Touchpad lama"  yang ada jika Anda telah menginstal dari HDD  `/System/Library/Extensions` ,   `/Extra/Extensions`
+2. Gunakan mounter EFI atau aplikasi konfigurator OC untuk memasang partisi EFI
+3. Ekstrak paket ApplePS2SmartTouchPad. Folder yang diekstrak berisi 1 file kext
+4. Sekarang tergantung pada jenis trackpad Anda yaitu mencari tahu dari Windows Device Manager
+5. salin ApplePS2SmartTouchPad.kext folder `EFI > OC > Kexts` dan reboot sistem.
+
+#### 🔍 Konfigurasi Prefensi System :
+
+1. Prefensi System -> Aksebilitas -> Kontrol Petunjuk -> Pilihan Trackpad Dan Centang Aktifkan penyeretan :
+
+`Prefensi System`|`Aksebilitas`|`Kontrol Petunjuk`|`Pilihan Trackpad`|`Aktifkan penyeretan`
+---|---|---|---|---
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/ICON%201.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%201.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%202.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%203.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%204.png"/>
+
+2. Prefensi System -> Trackpad -> Centang ketuk Untuk Mengeklik :
+
+`Prefensi System`|`Trackpad`|`Centang ketuk Untuk Mengeklik`|`Extra`
+---|---|---|---|
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/ICON%201.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%205.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%206.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%207.png"/> ***Bagi mereka yang ingin Scroll Touchpad Terbalik (Seperti Windows) Hapus Centang Arah Gulir Alami***
 
 
-Bagian terbaiknya, setiap gerakan bekerja seperti yang dijelaskan.
+3. Prefensi System -> Papan Ketik -> Edit Sesuai Dengan Tombol Shorchut dibawah Ini :
 
-Langkah-langkahnya sederhana. Yang harus Anda lakukan adalah mengunduh paket [ApplePS2SmartTouchPad.kext.zip](https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/releases) . Setelah mengunduh paket, ikuti langkah-langkah ini:
+`Prefensi System`|`Papan Ketik`|`Launchpad`|`Mission Control`
+---|---|---|---|
+<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/ICON%201.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%208.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%209.png"/>|<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%2010.png"/>|
 
-1. Gunakan mounter EFI atau aplikasi konfigurator OC untuk memasang partisi EFI
-2. Ekstrak paket ApplePS2SmartTouchPad. Folder yang diekstrak berisi 1 file kext
-3. Sekarang tergantung pada jenis trackpad Anda yaitu mencari tahu dari Windows Device Manager
-4. Jika trackpad Focaltech / Elan , salin ApplePS2SmartTouchPad.kext folder EFI>OC>Kexts dan reboot sistem.
-
-
-Setelah reboot, Buka Pengaturan
-
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/ICON%201.png" width="100" height="100" />
-
-### Prefensi System -> Aksebilitas -> Kontrol Petunjuk -> Pilihan Trackpad Dan Centang Aktifkan penyeretan :
-
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%201.png" width="550" height="450" />
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%202.png" width="550" height="450" />
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%203.png" width="550" height="450" />
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%204.png" width="550" height="450" />
-
-### Prefensi System -> Trackpad :
-
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%205.png" width="550" height="450" />
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%206.png" width="550" height="450" />
-
-Catatan : Bagi mereka yang ingin Scroll Touchpad Terbalik (Seperti Windows) Hapus Centang Arah Gulir Alami
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%207.png" width="550" height="450" />
-
-### Prefensi System -> Papan Ketik -> Edit Sesuai Dengan Tombol Shorchut-Shorchut dibawah Ini :
-
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%208.png" width="550" height="450" />
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%209.png" width="550" height="450" />
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%2010.png" width="550" height="450" />
 
 ### Berikut Ini adalah fitur yang Bisa Anda Dapatkan Setelah Mengedit di Bagian Prefensi System :
 
@@ -74,15 +82,3 @@ Gesture             |  Deskripsi
 ![](https://user-images.githubusercontent.com/89202419/161056439-231fdc0c-1984-449f-bee6-00d10e1c6ee2.jpg)| Ketukan Sudut. Mengetuk di area sudut touchpad
 ![](https://user-images.githubusercontent.com/89202419/161057779-12b20f1a-6a6b-401d-8265-d0677a448832.png) |  Rotasi. letakkan jari pertama di touchpad selama 1-2 detik sebelum memutar dengan jari lain
 ![](https://user-images.githubusercontent.com/89202419/161063663-8925e6cd-1907-4ffc-99d3-d5ea65468867.png) | Klik Tengah. Emulasi Klik Tengah Seperti Pada Mouse
-
-### 📓 Catatan Penting :
-
-- Itu ada di Beta. Jangan berharap Drivernya berfungsi dengan baik
-- mungkin ada beberapa lompatan di sana-sini
-- jangan lupa untuk menambahkan ApplePS2SmartTouchPad.kext di config.plist
-- Kext ini mengemulasi beberapa gerakan dengan mengirimkan sistem dengan pintasan keyboard yang sesuai. Misalnya, setelah kext mendeteksi gesekan tiga jari ke kiri, ia akan memasukkan kontrol + kiri untuk beralih ruang kerja. Ini berfungsi dengan baik tetapi sedikit kikuk (Anda tidak dapat memindahkan ruang kerja setengah jalan untuk melihat apa yang ada di yang lain misalnya)
-
-#### Thanks To :
-- EMlyDinEsH
-
-### [Sumber Pembuat Kext](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/)
