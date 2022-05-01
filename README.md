@@ -19,6 +19,14 @@
 - Rotasi - Rotasi Busur dan Gesek
 - Input/Telapak Tangan yang Tidak Disengaja saat mengetik
 
+<details>
+  <summary>Preview :</summary>
+<p align="center">
+  <img src="https://github.com/JaemanPratama/Appleps2smarttouchpad-gesture-settings/blob/main/IMG/anim1.gif" alt="animated" />
+</p>
+</details>
+
+
 ```
 Source :
 Elan & Smart Touchpad Ps2 https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver-mac-os-x/
