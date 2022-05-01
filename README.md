@@ -22,7 +22,9 @@
 <details>
   <summary>Preview :</summary>
 <p align="center">
+  <kbd>
   <img src="https://github.com/JaemanPratama/Appleps2smarttouchpad-gesture-settings/blob/main/IMG/anim1.gif" alt="animated" />
+    </kbd>
 </p>
 </details>
 
