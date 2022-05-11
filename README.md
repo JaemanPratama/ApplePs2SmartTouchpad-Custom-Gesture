@@ -52,3 +52,7 @@ Gesek ke kiri dari tepi kanan dengan dua jari | menampilkan Pusat Pemberitahuan
 Klik 5 jari | menampilkan Desktop
 Jepit 5 jari | Membuka Launchpad
 
+
+File  
+:-------------------------:
+[ConfigGesure.zip](https://github.com/JaemanPratama/Appleps2smarttouchpad-gesture-settings/files/8668914/ConfigGesure.zip)
