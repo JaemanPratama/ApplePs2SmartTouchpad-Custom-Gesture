@@ -55,4 +55,5 @@ Jepit 5 jari | Membuka Launchpad
 
 File  
 :-------------------------:
-[ConfigGesure.zip](https://github.com/JaemanPratama/Appleps2smarttouchpad-gesture-settings/files/8668914/ConfigGesure.zip)
+[ConfigGesure.zip](https://github.com/JaemanPratama/Appleps2smarttouchpad-gesture-settings/files/8668976/ConfigGesure.zip)
+
