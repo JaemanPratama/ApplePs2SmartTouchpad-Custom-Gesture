@@ -53,7 +53,11 @@ Klik 5 jari | menampilkan Desktop
 Jepit 5 jari | Membuka Launchpad
 
 
-File  
+Versi Stabil  
 :-------------------------:
-[ConfigGesure.zip](https://github.com/JaemanPratama/Appleps2smarttouchpad-gesture-settings/files/8668976/ConfigGesure.zip)
+[ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureStable.zip)
+
+Versi Beta  
+:-------------------------:
+[ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBeta.zip)
 
