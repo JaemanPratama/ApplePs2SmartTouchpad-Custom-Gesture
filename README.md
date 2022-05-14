@@ -57,7 +57,7 @@ Versi Stabil
 :-------------------------:
 [ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureStable.zip)
 
-Versi Beta  
-:-------------------------:
-[ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBeta.zip)
+Versi Beta  | Beta V1
+:-------------------------:|:-------------------------:
+[ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBeta.zip) | [ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBetaV1.zip)
 
