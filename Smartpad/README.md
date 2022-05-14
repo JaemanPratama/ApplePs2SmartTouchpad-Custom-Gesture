@@ -12,3 +12,6 @@
 - Change Clickpad Virtual Buttons Area
 - Enable Pointing On Virtual Button Area
 - Disable Virtual Middle Button
+
+### Apa yang diubah di ConfigGestureBetaV2?
+- Fix After Typing, Touchpad like disable
