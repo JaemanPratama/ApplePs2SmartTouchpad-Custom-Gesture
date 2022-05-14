@@ -1,11 +1,11 @@
-Apa yang diubah di ConfigGestureBeta?
+### Apa yang diubah di ConfigGestureBeta?
 
 - Scroll Speed
 - Inertia Speed
 - Add Slingg Scroll
 
 
-Apa yang diubah di ConfigGestureBetaV1?
+### Apa yang diubah di ConfigGestureBetaV1?
 - Scroll Speed
 - Inertia Speed
 - Remove Slingg Scroll
