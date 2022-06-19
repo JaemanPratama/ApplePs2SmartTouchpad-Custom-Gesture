@@ -36,7 +36,7 @@ Sayangnya gerakan ini hanya mengemulasi beberapa gerakan dengan mengirimkan sist
 <img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%206.png"/>
 <img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%208.png"/>
 <img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%209.png"/>
-<img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%2010.png"/>
+<img src ="https://user-images.githubusercontent.com/89202419/174462323-7ec4a416-3f3e-43f3-878d-f599da283a77.png"/>
 
 Gesture             |  Action
 :-------------------------:|:-------------------------:
@@ -49,15 +49,13 @@ Geser ke bawah dengan tiga jari | Membuka APP EXPOSE
 Geser ke kiri atau kanan dengan tiga jari | berpindah antara desktop dan aplikasi layar penuh
 Klik atau ketuk dengan dua jari | klik kanan
 Gesek ke kiri dari tepi kanan dengan dua jari | menampilkan Pusat Pemberitahuan
-Klik 5 jari | menampilkan Desktop
+Klik 3 jari | menampilkan Pendeteksi Data
+Jepit 4 jari | menampilkan Desktop
 Jepit 5 jari | Membuka Launchpad
 
 
 Versi Stabil  
 :-------------------------:
-[ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureStable.zip)
+[Appleps2](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureStable.zip)
 
-Versi Beta  | Beta V1
-:-------------------------:|:-------------------------:
-[ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBeta.zip) | [ConfigGesture.zip](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureBetaV1.zip)
 
