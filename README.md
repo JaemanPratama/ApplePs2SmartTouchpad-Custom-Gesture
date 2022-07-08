@@ -54,8 +54,5 @@ Jepit 4 jari | menampilkan Desktop
 Jepit 5 jari | Membuka Launchpad
 
 
-Versi Stabil  
-:-------------------------:
-[Appleps2](https://github.com/JaemanPratama/Hackintosh-kext-Appleps2smarttouchpad-gesture-config/blob/main/Smartpad/ConfigGestureStable.zip)
 
 
