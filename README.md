@@ -19,15 +19,10 @@ Sayangnya gerakan ini hanya mengemulasi beberapa gerakan dengan mengirimkan sist
 
 ### instruksi :
 
-- Unduh file zip yang ada di [sini](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver/) dan ekstrak ke folder :
-  * Bagi yang menggunakan bootloader Clover `EFI > Clover > Kexts > Other` 
-  * Bagi yang menggunakan bootloader Opencore `EFI > OC > Kexts`
-- reboot sistem Anda
-- Tambahkan gerakan Anda sendiri atau  pilih  Impor dari menu Gerakan untuk menggunakan konfigurasi saya yang ditemukan di  file ConfigGesure di bawah ini.
-  * Jika memilih untuk impor  dari menu Gerakan saya replace file info.plist ke `ApplePS2SmartTouchPad.kext > Contents`
+Segera Hadir
 
 ### Mengonfigurasi Gerakan :
-- hanya berfungsi menggunakan konfigurasi saya
+
 <img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%201.png"/>
 <img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%202.png"/>
 <img src ="https://github.com/JaemanPratama/Kext-Elan-ETD0108-PS-2-Interface-Trackpad/blob/main/IMG/IMG%203.png"/>
